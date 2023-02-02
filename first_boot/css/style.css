@@ -9,6 +9,17 @@ body{
 	font-family: 'Poppins', sans-serif;
     }
 
+
+header{
+	display:flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: #e7e9eb;
+}
+
  .banner{
  	width:90%;
  	margin: auto;
@@ -21,9 +32,10 @@ body{
  	border-radius: 20px;
  }
  .content{
- 	width: 100%;
+ 	width: 98%;
  	padding: 10px 10px;
  	border:2px solid #000000;
+ 	margin: auto;
  }
 .card-text{
 	text-align: justify;
@@ -97,4 +109,17 @@ footer a:hover{
 }
 .card-body a:hover{
 	text-decoration: none;
+}
+.contact{
+	width: 95%;
+	margin: auto;
+}
+.career{
+	width: 95%;
+	margin: auto;
+
+}
+.card-title{
+	font-weight: bold;
+	text-align: justify;
 }
