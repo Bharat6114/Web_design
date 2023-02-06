@@ -1,0 +1,48 @@
+@import "variable";
+.banner{
+	background-image: url('../image/hero.jpg');
+	width: 100%;
+    height: 700px;
+	background-size:cover;
+	position: relative;
+	
+	
+}
+
+.bannercontent{
+	width: 100%;
+	color:$wh;
+	position: absolute;
+	top:30%;
+	left: 100px;
+	line-height: 30px;
+	span{
+		color:$bl;
+		font-size: 50px;
+	}
+	h3{
+		font-size: 80px;
+		margin-top: 40px ;
+	}
+	p{
+		margin-top: 30px;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+}
+
+
+.readmore{
+	top:200px;
+	margin-top: 300px;
+	position: absolute;
+
+}
+.readmore a{
+	margin-left: 100px;
+	background-color:$bl;
+	padding: 20px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: $wh;
+}

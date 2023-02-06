@@ -1,0 +1,317 @@
+@import "variable";
+.content{
+	width: 100%;
+	margin-top:100px;
+	color: $bg;
+	text-align: center;
+
+	.firstpart{
+		width: 100%;
+		margin: auto;
+	span{
+		color: $bl;
+		font-size: 30px;
+		font-weight: 40px;
+		margin-bottom: 30px;
+	}
+	h3{
+		font-size:60px;
+
+	}
+	
+
+	}
+}
+
+.content2{
+	width: 100%;
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 40px;
+	justify-content: space-around;
+	.left{
+	width: 30%;
+	height: 300px;
+	img{
+		width: 100%;
+		height:300px;
+	}
+}
+.right{
+	width: 60%;
+	text-align: justify;
+	h3{
+		padding-bottom: 20px;
+		margin-right: 200px;
+	}
+	p{
+
+		padding-bottom: 20px;
+		margin-right: 200px;
+	
+	}
+	.lower{
+		width: 100%;
+		margin-top: 20px;
+		display: inline-flex;
+		justify-content: space-between;
+		.leftpart{
+			width: 100px;
+			height: 100px;
+			background-color: $bl;
+			position:relative;
+		.outer{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top:0px;
+			bottom:0px;
+			border: 1px solid $wh;
+			transform:translate(50%,50%);
+			background-color:$bg;
+			z-index: 999;
+		.inner{
+			 width: 100%;
+			 height: 100%;
+			background-color: $bl;
+		.fa-solid, .fas {
+             font-size: 2em;
+             margin-top: 10px;
+             margin-left: 10px;
+         }
+
+		}
+		}
+		}
+		.rightpart{
+
+			width: 100px;
+			height: 100px;
+			background-color: $bl;
+			position:relative;
+			margin-right: 300px;
+		.outer{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top:0px;
+			bottom:0px;
+			border: 1px solid $wh;
+			transform:translate(50%,50%);
+			background-color:$bg;
+			z-index: 999;
+		.inner{
+			 width: 100%;
+			 height: 100%;
+			background-color: $bl;
+		.fa-solid, .fas {
+             font-size: 2em;
+             margin-top: 10px;
+             margin-left: 10px;
+         }
+
+		}
+		}
+		}
+	}
+}
+.bottom{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	text-align: justify;
+	.rightpart{
+		margin-right: 30px;
+	}
+}
+}
+.content3{
+	width: 100%;
+	margin: auto;
+    background-color: $bg;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-around;
+    .content{
+    	width: 300px;
+    	height:100px;
+    	background-color: $bg; 
+    	display: inline-flex;
+    	justify-content: space-between;
+    }
+    .leftpart{
+
+			width: 100px;
+			height: 100px;
+			background-color: $bl;
+			position:relative;
+		.outer{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top:0px;
+			bottom:0px;
+			border: 1px solid $wh;
+			transform:translate(50%,50%);
+			background-color:$bg;
+			z-index: 999;
+		.inner{
+			 width: 100%;
+			 height: 100%;
+			background-color: $bl;
+		.fa-solid, .fas {
+             font-size: 2em;
+             margin-top: 10px;
+             margin-left: 10px;
+         }
+
+		}
+		}
+}
+.right{
+	h3{
+		color: $bl;
+		margin-top: 30px;
+		padding-right: 20px;
+		font-size: 20px;
+
+	}
+	h4{
+		color: $wh;
+		font-size: 50px;
+		padding-right: 10px;
+	}
+}
+}
+.content4{
+	width:100%;
+	margin-top: 30px;
+	justify-content: center;
+	.firstpart{
+		text-align: center;
+	span{
+		font-size: 40px;
+		color: $bl;
+		font-weight: 30px;
+		font-style: italic;
+	}
+	h3{
+		padding-top: 10px;
+		font-size: 40px;
+		font-weight: 30px;
+	}
+	}
+	.middle{
+		background-color: $bg;
+		width: 500px;
+		height: 100px;
+		margin: auto;
+		margin-top: 30px;
+		padding-top: 20px;
+		padding-left: 30px;
+	.inner{
+		background-color: $bg;
+		width: 90%;
+		height:90%;
+		border: 1px solid $wh;
+		display: inline-flex;
+	    justify-content: space-around;
+
+		.btn{
+			color: $wh;
+			margin: 10px 10px;
+			padding: 13px 10px;
+		}
+		.active{
+			background-color: $bl;
+		}
+	}
+	}
+
+}
+
+.content5{
+	width: 100%;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top:40px;
+	.content{
+		display: inline-flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		.leftpart{
+	    	width: 40%;
+	    	margin: auto;
+	    	display: inline-flex;
+	    	justify-content:flex-start;
+	    	background-color:$card;
+	    	
+	    	.left{
+	    		position: relative;
+	    		.price{
+
+	    			position: absolute;
+                    top: 0px;
+                    bottom: 0px;
+                    transform: translate(250%, 280%);
+                    background-color:$bl;
+                    height:20px;
+
+	    		}
+
+	    	}
+	    	.right{
+	    		.inner{
+	    			margin: 10px 10px;
+	    			border: 2px solid $wh;
+	    			h3{
+	    				padding-top: 10px;
+	    				padding-bottom: 10px;
+	    				text-align: left;
+	    			}
+	    			p{
+	    				text-align: justify;
+	    			}
+	    		}
+	    	}
+	    }
+	    .rightpart{
+	    	width: 40%;
+	    	margin: auto;
+	    	display: inline-flex;
+	    	justify-content: flex-start;
+	    	background-color:$card;
+	    	.left{
+	    		position: relative;
+	    		.price{
+
+	    			position: absolute;
+                    top: 0px;
+                    bottom: 0px;
+                    transform: translate(250%, 280%);
+                    background-color:$bl;
+                    height:20px;
+
+	    		}
+
+	    	}
+
+	      .right{
+	    		.inner{
+	    			margin: 10px 10px;
+	    			border: 2px solid $wh;
+	    			h3{
+	    				padding-top: 10px;
+	    				padding-bottom: 10px;
+	    				text-align: left;
+	    			}
+	    			p{
+	    				text-align: justify;
+	    			}
+	    		}}
+
+	    }
+
+	}
+}

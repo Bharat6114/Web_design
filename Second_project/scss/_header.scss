@@ -1,0 +1,43 @@
+@import "variable";
+*{
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+    background-color:$wh;
+    overflow-x: hidden;
+
+}
+.header{
+	background-color: $bg;
+	color: $wh;
+	text-transform: uppercase;
+	text-align: center;
+	position:fixed;
+	z-index: 9999;
+	width: 100%;
+	ul{
+		list-style: none;
+
+	li{
+		padding: 20px 20px;
+		display: inline-flex;
+
+	a{
+		text-decoration: none;
+		color: $wh;
+		font-size: 18px;
+        font-weight: 50px;
+	}
+	a:hover{
+		text-decoration: none;
+		color: $bl;
+		font-size: 18px;
+        font-weight: 50px;
+	}
+	}
+
+	}
+
+}
