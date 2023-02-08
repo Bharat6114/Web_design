@@ -1,0 +1,94 @@
+@import "variable";
+footer{
+	width: 100%;
+	background-color:$bg;
+	height: 500px;
+	display: inline-flex;
+	justify-content: space-around;
+	padding-top: 100px;
+	.box{
+		width: 300px;
+		height: 300px;
+		background-color: $bg;
+		position: relative;
+		p{
+			color: $wh;
+			margin-bottom: 20px;
+		}
+		input{
+			height: 50px;
+
+		}
+		input[type="submit"]{
+			padding: 10px;
+			margin-left: 5px;
+			background-color: $bl;
+			color: $bg;
+		}
+	.box1{
+		background-color: $bl;
+		width: 300px;
+		height: 300px;
+		position: relative;
+		.box2{
+		background-color: $bl;
+		width: 250px;
+		height: 250px;
+		padding: 10px;
+		position: relative;
+		border:1px solid $wh;
+		transform: translate(10%,10%);
+		h3{
+			font-size: 25px;
+			padding-bottom: 10px;
+			color: $bg !important;
+			text-transform: uppercase;
+
+		}
+		p{
+			text-align: justify;
+		}
+	}
+	}
+
+	}
+	h3{
+		padding:20px ;
+		font-weight: 20px;
+		font-size: 30px;
+		color: $bl;
+	}
+	ul{
+		list-style: none;
+		li{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			color: $wh;
+			a{
+				text-decoration: none;
+				color: $wh;
+			}
+			.fa-solid, .fas {
+				padding-right:10px;
+
+			}
+		}
+
+	}
+   .icon{
+   	display: inline-flex;
+   	justify-content: space-between;
+   	padding-right: 10px;
+   	padding-top: 10px;
+   }
+   .logo{
+   	margin: 10px;
+   	padding:10px;
+   	background-color: $bl;
+   	.fa-brands, .fab{
+   		padding: 10px;
+   		border:1px solid $wh;
+   	} 
+   }
+}
