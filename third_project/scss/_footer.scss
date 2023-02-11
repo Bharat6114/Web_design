@@ -1,0 +1,10 @@
+@import "variable";
+footer{
+	width: 100%;
+	background-color: $bl;
+	height: 50px;
+	padding: 10px 20px;
+	display: inline-flex;
+	justify-content: space-between;
+	color: $wh;
+}

@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url("../image/bg.jpg");
+  background-repeat: repeat-x;
+  background-color: #b6b6b6;
+}
+
+.page {
+  width: 95%;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #ffffff;
+  height: 120px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 5px solid #d7d7d7;
+}
+header .logo {
+  width: 20%;
+}
+header .logo img {
+  width: 150px;
+  height: 120px;
+}
+header .info {
+  padding-right: 20px;
+}
+header .info ul {
+  list-style: none;
+}
+header .info ul li {
+  padding: 5px;
+  text-align: right;
+}
+header .info ul li a {
+  text-decoration: none;
+  color: #293977;
+}
+header .info ul li a img {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+header .info nav {
+  text-align: right;
+  padding-top: 0px;
+}
+header .info nav ul .active a {
+  background-color: #d7d7d7;
+}
+header .info nav ul li {
+  padding-top: 0px;
+  display: inline-flex;
+  position: relative;
+}
+header .info nav ul li a {
+  padding: 1px 5px;
+  background-color: #293977;
+  color: #ffffff;
+  font-size: 20px;
+}
+header .info nav ul li a:hover {
+  color: red;
+  background-color: #293977;
+}
+header .info nav ul li ul {
+  display: none;
+  list-style: none;
+  margin-top: 30px;
+  position: absolute;
+  width: 200px;
+  background-color: #293977;
+  text-align: left;
+}
+header .info nav ul li ul li {
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+header .info nav ul li ul li a {
+  font-size: 13px;
+}
+header .info nav ul li:hover ul {
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+}
+.banner img {
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  background-color: #ffffff;
+  display: inline-flex;
+}
+.content .left {
+  width: 70%;
+  border-right: 2px dotted #d7d7d7;
+  padding: 20px 20px;
+  text-align: justify;
+}
+.content .left h2 {
+  color: #293977;
+  text-shadow: 1px 1px 5px #293977;
+  margin-bottom: 20px;
+}
+.content .left h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.content .left ul {
+  list-style: none;
+}
+.content .left form {
+  padding-top: 100PX;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 100px;
+}
+.content .left form lable {
+  padding: 10px 10px;
+  text-align: left;
+}
+.content .left form input {
+  width: 80%;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.content .left form input[type=submit], .content .left form input[type=reset] {
+  width: 50px;
+  margin-left: 80px;
+}
+.content .left form #message {
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.content .right {
+  width: 30%;
+  padding: 20px 20px;
+  text-align: justify;
+}
+.content .right h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #293977;
+  height: 50px;
+  padding: 10px 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
